@@ -39,6 +39,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dgvStudents = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(19, 29);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(57, 20);
+            this.lblName.Size = new System.Drawing.Size(46, 16);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Họ tên";
             // 
@@ -56,7 +57,7 @@
             this.lblGender.AutoSize = true;
             this.lblGender.Location = new System.Drawing.Point(19, 127);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(67, 20);
+            this.lblGender.Size = new System.Drawing.Size(54, 16);
             this.lblGender.TabIndex = 1;
             this.lblGender.Text = "Giới tính";
             // 
@@ -65,7 +66,7 @@
             this.lblClass.AutoSize = true;
             this.lblClass.Location = new System.Drawing.Point(19, 76);
             this.lblClass.Name = "lblClass";
-            this.lblClass.Size = new System.Drawing.Size(36, 20);
+            this.lblClass.Size = new System.Drawing.Size(30, 16);
             this.lblClass.TabIndex = 2;
             this.lblClass.Text = "Lớp";
             // 
@@ -73,14 +74,14 @@
             // 
             this.txtName.Location = new System.Drawing.Point(94, 26);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(121, 26);
+            this.txtName.Size = new System.Drawing.Size(121, 22);
             this.txtName.TabIndex = 3;
             // 
             // txtClass
             // 
             this.txtClass.Location = new System.Drawing.Point(94, 73);
             this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(121, 26);
+            this.txtClass.Size = new System.Drawing.Size(121, 22);
             this.txtClass.TabIndex = 4;
             // 
             // cboGender
@@ -88,7 +89,7 @@
             this.cboGender.FormattingEnabled = true;
             this.cboGender.Location = new System.Drawing.Point(94, 124);
             this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(121, 28);
+            this.cboGender.Size = new System.Drawing.Size(121, 24);
             this.cboGender.TabIndex = 5;
             // 
             // btnAdd
@@ -142,9 +143,19 @@
             this.dgvStudents.TabIndex = 10;
             this.dgvStudents.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudents_CellContentClick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(725, 47);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(833, 445);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvStudents);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnDelete);
@@ -183,6 +194,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dgvStudents;
+        private System.Windows.Forms.Button button1;
     }
 }
 
